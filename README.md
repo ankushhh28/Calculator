@@ -15,7 +15,7 @@ A simple and responsive calculator built using HTML, Tailwind CSS, and JavaScrip
 
 Check out the live demo [here](#) (replace `#` with the link to your hosted project if available).
 
-![Calculator](./assets/CalculatorImg.png)
+![Calculator](assets/CalcultorImg.png)
 
 
 
