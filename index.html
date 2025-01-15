@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="bg-gradient-to-br from-blue-200 via-white to-blue-300 flex justify-center items-center h-screen">
+    <main
+        class="w-96 bg-gray-900 text-white rounded-3xl p-4 border-2 border-blue-400 shadow-[0_0_5px_rgba(59,130,246,0.6)]">
+
+        <!-- Brand Name -->
+        <div class="text-center text-2xl font-extrabold text-blue-300 mb-4 tracking-wide font-mono">
+            A.S. Calculator
+        </div>
+
+        <!-- Display Section -->
+        <div id="display"
+        class="h-20 rounded-xl bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 shadow-inner flex items-center justify-end p-4 text-2xl font-mono text-white border border-gray-600">
+        <h1 id="screen" class="truncate"></h1>
+    </div>
+
+        <!-- Buttons Section -->
+        <div id="btns-section" class="grid grid-rows-5 grid-cols-4 gap-4 mt-6">
+            <!-- Row 1 -->
+            <button id="fullClear"
+                class="bg-red-500 hover:bg-red-600 text-white text-xl font-bold py-3 rounded-xl shadow active:scale-95 active:shadow-inner">
+                AC
+            </button>
+            <button id="Cancel"
+                class="bg-red-500 hover:bg-red-600 text-white text-xl font-bold py-3 rounded-xl shadow active:scale-95 active:shadow-inner">
+                del
+            </button>
+            <button
+                class="bg-orange-500 hover:bg-orange-600 text-white text-2xl font-bold py-3 rounded-xl shadow active:scale-95 active:shadow-inner">
+                %
+            </button>
+            <button
+                class="bg-orange-500 hover:bg-orange-600 text-white text-xl font-bold py-3 rounded-xl shadow active:scale-95 active:shadow-inner">
+                /
+            </button>
+
+            <!-- Row 2 -->
+            <button
+                class="bg-gray-700 hover:bg-gray-600 text-white text-xl font-bold py-3 rounded-xl shadow active:scale-95 active:shadow-inner">
+                7
+            </button>
+            <button
+                class="bg-gray-700 hover:bg-gray-600 text-white text-xl font-bold py-3 rounded-xl shadow active:scale-95 active:shadow-inner">
+                8
+            </button>
+            <button
+                class="bg-gray-700 hover:bg-gray-600 text-white text-xl font-bold py-3 rounded-xl shadow active:scale-95 active:shadow-inner">
+                9
+            </button>
+            <button
+                class="bg-orange-500 hover:bg-orange-600 text-white text-3xl font-bold py-3 rounded-xl shadow active:scale-95 active:shadow-inner">
+                *
+            </button>
+
+            <!-- Row 3 -->
+            <button
+                class="bg-gray-700 hover:bg-gray-600 text-white text-xl font-bold py-3 rounded-xl shadow active:scale-95 active:shadow-inner">
+                4
+            </button>
+            <button
+                class="bg-gray-700 hover:bg-gray-600 text-white text-xl font-bold py-3 rounded-xl shadow active:scale-95 active:shadow-inner">
+                5
+            </button>
+            <button
+                class="bg-gray-700 hover:bg-gray-600 text-white text-xl font-bold py-3 rounded-xl shadow active:scale-95 active:shadow-inner">
+                6
+            </button>
+            <button
+                class="bg-orange-500 hover:bg-orange-600 text-white text-4xl font-bold py-3 rounded-xl shadow active:scale-95 active:shadow-inner">
+                -
+            </button>
+
+            <!-- Row 4 -->
+            <button
+                class="bg-gray-700 hover:bg-gray-600 text-white text-xl font-bold py-3 rounded-xl shadow active:scale-95 active:shadow-inner">
+                1
+            </button>
+            <button
+                class="bg-gray-700 hover:bg-gray-600 text-white text-xl font-bold py-3 rounded-xl shadow active:scale-95 active:shadow-inner">
+                2
+            </button>
+            <button
+                class="bg-gray-700 hover:bg-gray-600 text-white text-xl font-bold py-3 rounded-xl shadow active:scale-95 active:shadow-inner">
+                3
+            </button>
+            <button
+                class="bg-orange-500 hover:bg-orange-600 text-white text-3xl font-bold py-3 rounded-xl shadow active:scale-95 active:shadow-inner">
+                +
+            </button>
+
+            <!-- Row 5 -->
+            <button
+                class="bg-gray-700 hover:bg-gray-600 text-white text-xl font-bold py-3 rounded-xl shadow active:scale-95 active:shadow-inner">
+                00
+            </button>
+            <button
+                class="bg-gray-700 hover:bg-gray-600 text-white text-xl font-bold py-3 rounded-xl shadow active:scale-95 active:shadow-inner">
+                0
+            </button>
+            <button
+                class="bg-gray-700 hover:bg-gray-600 text-white text-2xl font-bold py-3 rounded-xl shadow active:scale-95 active:shadow-inner">
+                .
+            </button>
+            <button
+                class="bg-green-500 hover:bg-green-600 text-white text-3xl font-bold py-3 rounded-xl shadow active:scale-95 active:shadow-inner">
+                =
+            </button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
