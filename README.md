@@ -13,7 +13,7 @@ A simple and responsive calculator built using HTML, Tailwind CSS, and JavaScrip
 
 ## Demo
 
-Check out the live demo [here](#) (replace `#` with the link to your hosted project if available).
+Check out the live demo [Click here!](https://mycalculator-8kjm.onrender.com) .
 
 ![Calculator](assets/CalcultorImg.png)
 
